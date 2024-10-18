@@ -55,6 +55,16 @@ tabButtons.forEach(btn => {
     });
   });
 });
+function filterSelection(category) {
+  var projects = document.getElementsByClassName('portfolio-item');
+  for (var i = 0; i < projects.length; i++) {
+    if (category === 'all' || projects[i].classList.contains(category)) {
+      projects[i].style.display = 'block';
+    } else {
+      projects[i].style.display = 'none';
+    }
+  }
+}
 
 
 	
