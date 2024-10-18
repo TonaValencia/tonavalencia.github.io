@@ -34,7 +34,30 @@
 
   	}, 100);
 
+	/*---------------------------------------------------- */
+	/* Clasificacion
+	------------------------------------------------------ */ 
+const tabButtons = document.querySelectorAll('.tab-btn');
+const items = document.querySelectorAll('.portfolio-item');
 
+tabButtons.forEach(btn => {
+  btn.addEventListener('click', () => {
+    tabButtons.forEach(button => button.classList.remove('active'));
+    btn.classList.add('active');
+
+    const category = btn.getAttribute('data-tab');
+    items.forEach(item => {
+      if (category === 'all' || item.classList.contains(category)) {
+        item.style.display = 'block';
+      } else {
+        item.style.display = 'none';
+      }
+    });
+  });
+});
+
+
+	
 	/*---------------------------------------------------- */
 	/* FitVids
 	------------------------------------------------------ */ 
