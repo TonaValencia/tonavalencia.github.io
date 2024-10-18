@@ -273,17 +273,17 @@ hr {
  */
 
 /* Center the tab buttons */
-.tabs {
+/* .tabs {
   display: flex;
   justify-content: center; /* Centers the buttons */
-  margin-bottom: 20px; /* Adjust the space below the buttons */
-}
+/*   margin-bottom: 20px; /* Adjust the space below the buttons */
+/* }
 
 /* Style for the individual tab buttons */
-.tab-btn {
+/*.tab-btn {
   background-color: #000; /* Black background */
-  color: #fff; /* White text */
-  padding: 10px 20px;
+ /* color: #fff; /* White text */
+ /* padding: 10px 20px;
   cursor: pointer;
   border: none;
   border-radius: 5px;
@@ -291,27 +291,27 @@ hr {
 }
 
 /* Hover effect for the tab buttons */
-.tab-btn:hover {
+/*.tab-btn:hover {
   background-color: #333; /* Darker hover effect */
-}
+/*}
 
 /* Flexbox setup for the gallery to ensure items reorganize */
-.portfolio {
+/*.portfolio {
   display: flex;
   flex-wrap: wrap; /* Allow the items to wrap onto new rows */
-  gap: 20px; /* Space between items */
-}
+/*  gap: 20px; /* Space between items */
+/*}
 
 /* Ensure portfolio items are hidden when filtered */
-.portfolio-item {
+/*.portfolio-item {
   flex: 1 1 calc(33.333% - 20px); /* Three items per row with equal spacing */
-  display: none; /* Hide by default */
-}
+/*  display: none; /* Hide by default */
+/*}
 
 /* Only display active portfolio items */
-.portfolio-item.active {
+/*.portfolio-item.active {
   display: block; /* Show filtered items */
-}
+/*}
 
 
 
