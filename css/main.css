@@ -268,6 +268,31 @@ hr {
 }
 
 /**
+ * clasify GPT 
+ * -------------------------------------------------------------------
+ */
+.tabs {
+  display: flex;
+  justify-content: center; /* Centra los botones */
+  gap: 10px; /* Añade espacio entre ellos */
+}
+
+.tab-btn {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.portfolio {
+  display: flex;
+  flex-wrap: wrap; /* Permite reorganizar los elementos */
+  gap: 20px;
+}
+.portfolio-item {
+  flex: 1 1 calc(33.333% - 20px); /* 3 elementos por fila */
+  display: block; /* Asegura que los elementos visibles ocupen espacio */
+}
+
+
+/**
  * Lists - (_document-setup.scss)  
  * -------------------------------------------------------------------
  */
