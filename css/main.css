@@ -276,7 +276,11 @@ hr {
   justify-content: center; /* Centra los botones */
   gap: 10px; /* Añade espacio entre ellos */
 }
-
+.tab-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
 .tab-btn {
   padding: 10px 20px;
   cursor: pointer;
