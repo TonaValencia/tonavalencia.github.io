@@ -90,7 +90,7 @@ a, a:visited {
 	transition: all 0.3s ease-in-out;
 }
 a:hover, a:focus, a:active {
-	color: #462E6D;
+	color: #961274;
 	outline: 0;
 }
 
@@ -256,7 +256,7 @@ abbr[title], dfn[title] {
 	cursor: help;
 }
 mark {
-	background: #FFF49B;
+	background: #961274;
 	color: #000;
 }
 hr {
@@ -349,7 +349,7 @@ ul.disc li::before {
 	width: 8px;
 	height: 8px;
 	border-radius: 50%;
-	background: #462E6D;
+	background: #961274;
 	position: absolute;
 	left: -17px;
 	top: 11px;
@@ -357,7 +357,7 @@ ul.disc li::before {
 }
 dt {
 	margin: 0;
-	color: #462E6D;
+	color: #961274;
 }
 dd {
 	margin: 0 0 0 2rem;
@@ -477,7 +477,7 @@ img.pull-left {
 	display: none;
 }
 .pace .pace-progress {
-	background: #462E6D;
+	background: #961274;
 	position: fixed;
 	z-index: 900;
 	top: 0;
@@ -642,7 +642,7 @@ input[type="url"]:focus,
 input[type="password"]:focus,
 textarea:focus,
 select:focus {
-	color: #801971;
+	color: #961274;
 	border-bottom: 1px solid #462E6D;
 }
 label, legend {
@@ -784,8 +784,8 @@ button.stroke.large, .button.stroke.large {
 	line-height: 5.4rem !important;
 }
 button.stroke:hover, .button.stroke:hover {
-	border: 3px solid #462E6D;
-	color: #462E6D;
+	border: 3px solid #961274;
+	color: #961274;
 }
 button::-moz-focus-inner, input::-moz-focus-inner {
 	border: 0;
@@ -820,19 +820,19 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 .ss-error {
 	background-color: #ffd1d2;
-	color: #e65153;
+	color: #961274;
 }
 .ss-success {
-	background-color: #c8e675;
-	color: #758c36;
+	background-color: #961274;
+	color: #961274;
 }
 .ss-info {
 	background-color: #d7ecfb;
-	color: #4a95cc;
+	color: #961274;
 }
 .ss-notice {
-	background-color: #fff099;
-	color: #bba31b;
+	background-color: #961274;
+	color: #680c51;
 }
 
 /**
@@ -973,7 +973,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	color: #252525;
 }
 .stats-tabs li a:hover {
-	color: #462E6D;
+	color: #961274;
 }
 .stats-tabs li a em {
 	display: block;
@@ -1011,7 +1011,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	line-height: 2.4rem;
 }
 .skill-bars li .progress {
-	background: #313131;
+	background: #961274;
 	position: relative;
 	height: 100%;
 }
@@ -1089,7 +1089,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	margin-bottom: 1.2rem;
 }
 .section-intro h5 {
-	color: #462E6D;
+	color: #961274;
 	font-size: 1.6rem;
 	line-height: 1.875;
 	margin-bottom: 0.3rem;
@@ -1342,7 +1342,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #intro {
-	background: #151515 url(../images/intro-bg.jpg) no-repeat center bottom;
+	background: #151515 url(../images/intro-bg.jpeg) no-repeat center bottom;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -1361,7 +1361,7 @@ header .logo a {
 	width: 100%;
 	height: 100%;
 	background: #111111;
-	opacity: .70;
+	opacity: .82;
 }
 
 .intro-content {
@@ -1385,7 +1385,7 @@ header .logo a {
 	text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 .intro-content h5 {
-	color: #f5a4db;
+	color: #961274;
 	font-family: "poppins-bold", sans-serif;
 	font-size: 2.3rem;
 	line-height: 1.565;
@@ -1432,7 +1432,7 @@ header .logo a {
 	letter-spacing: .25rem;
 }
 .intro-content .button:hover, .intro-content .button:focus {
-	border-color: #801971;
+	border-color: #961274;
 }
 .intro-content .button::after {
 	display: inline-block;
@@ -1677,7 +1677,7 @@ header .logo a {
 	text-align: center;
 }
 #resume .resume-header h2 {
-	color: #462E6D;
+	color: #961274;
 }
 
 #resume .resume-timeline {
@@ -1706,7 +1706,7 @@ header .logo a {
 	height: 4.8rem;
 	width: 4.8rem;
 	line-height: 4.8rem;
-	background: #313131;
+	background: #961274;
 	border-radius: 50%;
 	text-align: center;
 	color: #FFFFFF;

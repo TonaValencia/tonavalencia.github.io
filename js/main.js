@@ -19,10 +19,25 @@
 
         // will fade out the whole DIV that covers the website.
         $("#preloader").delay(300).fadeOut("slow");
-
+		
+		
       });       
-
   	})
+
+	$(document).ready(function(){
+		var $grid = $('#folio-wrapper').isotope({
+			itemSelector: '.folio-item',
+			layoutMode: 'fitRows',
+		});
+	
+		// filter items on button click
+		$('.filter-button-group').on('click', 'button', function() {
+			var filterValue = $(this).attr('data-filter');
+			console.log('filterValue = ', filterValue)
+			$grid.isotope({ filter: filterValue });
+		});
+	});
+	
 
 
   	/*---------------------------------------------------- */
@@ -37,33 +52,34 @@
 	/*---------------------------------------------------- */
 	/* Clasificacion
 	------------------------------------------------------ */ 
-const tabButtons = document.querySelectorAll('.tab-btn');
-const items = document.querySelectorAll('.portfolio-item');
+	// const tabButtons = document.querySelectorAll('.tab-btn');
+	// const items = document.querySelectorAll('.portfolio-item');
 
-tabButtons.forEach(btn => {
-  btn.addEventListener('click', () => {
-    tabButtons.forEach(button => button.classList.remove('active'));
-    btn.classList.add('active');
+	// tabButtons.forEach(btn => {
+	// btn.addEventListener('click', () => {
+	// 	tabButtons.forEach(button => button.classList.remove('active'));
+	// 	btn.classList.add('active');
 
-    const category = btn.getAttribute('data-tab');
-    items.forEach(item => {
-      if (category === 'all' || item.classList.contains(category)) {
-        item.style.display = 'block';
-      } else {
-        item.style.display = 'none';
-      }
-    });
-  });
-});
-function filterSelection(category) {
-  var projects = document.getElementsByClassName('portfolio-item');
-  for (var i = 0; i < projects.length; i++) {
-    projects[i].classList.remove('active');
-    if (category === 'all' || projects[i].classList.contains(category)) {
-      projects[i].classList.add('active');
-    }
-  }
-}
+	// 	const category = btn.getAttribute('data-tab');
+	// 	items.forEach(item => {
+	// 	if (category === 'all' || item.classList.contains(category)) {
+	// 		item.style.display = 'block';
+	// 	} else {
+	// 		item.style.display = 'none';
+	// 	}
+	// 	});
+	// });
+	// });
+
+	// function filterSelection(category) {
+	// var projects = document.getElementsByClassName('portfolio-item');
+	// for (var i = 0; i < projects.length; i++) {
+	// 	projects[i].classList.remove('active');
+	// 	if (category === 'all' || projects[i].classList.contains(category)) {
+	// 	projects[i].classList.add('active');
+	// 	}
+	// }
+	// }
 
 
 	
