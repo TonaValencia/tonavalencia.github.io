@@ -1678,6 +1678,7 @@ header .logo a {
 }
 #resume .resume-header h2 {
 	color: #961274;
+	font-size: 4rem;
 }
 
 #resume .resume-timeline {
@@ -1740,13 +1741,13 @@ header .logo a {
 #resume .timeline-content {
 	margin-left: 35%;
 	padding-left: 60px;
-	font-size: 2rem;
+	font-size: 1.8rem;
 	font-family: "poppins-regular", sans-serif;
 }
 #resume .timeline-content h4 {
 	position: relative;
 	padding-bottom: 1.8rem;
-	font-size: 2.5rem;
+	font-size: 2.2rem;
 }
 #resume .timeline-content h4::after {
 	content: "";
@@ -2310,7 +2311,7 @@ header .logo a {
 	color: white;
 }
 #contact .section-intro h5 {
-	color: #462E6D;
+	color: #801971;
 }
 #contact .section-intro p {
 	color: rgba(255, 255, 255, 0.7);
@@ -2394,7 +2395,7 @@ header .logo a {
 #contact input[type="text"]:focus,
 #contact input[type="password"]:focus,
 #contact input[type="email"]:focus {
-	border-color: #462E6D;
+	border-color: #801971;
 	color: #FFFFFF;
 }
 #contact textarea {
@@ -2402,7 +2403,7 @@ header .logo a {
 	padding: 1.8rem 2rem;
 }
 #contact textarea:focus {
-	border-color: #462E6D;
+	border-color: #801971;
 	color: #FFFFFF;
 }
 #contact button.submitform {
@@ -2414,7 +2415,7 @@ header .logo a {
 	padding: 0 3rem;
 	margin-top: 4.8rem;
 	width: 100%;
-	background: #462E6D;
+	background: #801971;
 	color: #FFFFFF;
 }
 #contact button.submitform:hover, #contact button.submitform:focus {
@@ -2432,7 +2433,7 @@ header .logo a {
 	color: #fa0003;
 }
 #message-success {
-	color: #462E6D;
+	color: #801971;
 }
 #message-warning i, #message-success i {
 	margin-right: 10px;
@@ -2477,7 +2478,7 @@ header .logo a {
 	color: #FFFFFF;
 }
 .contact-info h5 {
-	color: #7c44a5;
+	color: #801971;
 }
 
 /**
