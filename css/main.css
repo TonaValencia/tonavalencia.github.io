@@ -520,7 +520,7 @@ img.pull-left {
 	border-top: 11px solid rgba(255, 255, 255, 0.1);
 	border-right: 11px solid rgba(255, 255, 255, 0.1);
 	border-bottom: 11px solid rgba(255, 255, 255, 0.1);
-	border-left: 11px solid #462E6D;
+	border-left: 11px solid #961274;
 	-webkit-animation: load 1.1s infinite linear;
 	animation: load 1.1s infinite linear;
 	display: block;
@@ -1186,7 +1186,7 @@ header .logo a {
 }
 .menu-toggle span {
 	display: block;
-	background-color: #462E6D;
+	background-color: #961274;
 	width: 24px;
 	height: 3px;
 	margin-top: -1.5px;
@@ -1244,7 +1244,7 @@ header .logo a {
 	background-color: rgba(255, 0, 119, 0);
 }
 .menu-toggle.is-clicked span::before, .menu-toggle.is-clicked span::after {
-	background-color: #462E6D;
+	background-color: #961274;
 	-moz-transition-delay: 0s, 0.2s;
 	-o-transition-delay: 0s, 0.2s;
 	-webkit-transition-delay: 0s, 0.2s;
@@ -1300,12 +1300,12 @@ header .logo a {
 	border: none;
 }
 .main-navigation li a:hover {
-	color: #462E6D;
+	color: #961274;
 	padding-left: 1rem;
 }
 .main-navigation li.current > a {
 	background: none;
-	color: #462E6D;
+	color: #961274;
 }
 
 /**
@@ -2552,7 +2552,7 @@ footer a, footer a:visited {
 	color: #FFFFFF;
 }
 footer a:hover, footer a:focus {
-	color: #462E6D;
+	color: #961274;
 }
 footer .row {
 	max-width: 900px;
@@ -2631,7 +2631,7 @@ footer .copyright span:last-child::after {
 	width: 6rem;
 	line-height: 6.6rem;
 	text-align: center;
-	background: #462E6D;
+	background: #961274;
 	color: #FFFFFF;
 	text-align: center;
 	text-transform: uppercase;
