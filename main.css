@@ -2642,5 +2642,33 @@ footer .copyright span:last-child::after {
 #go-top a:hover {
 	background: #000000;
 }
+.skill-group {
+	margin-bottom: 2.4rem;
+}
+
+.skill-group h5 {
+	margin-bottom: 1rem;
+	letter-spacing: .1rem;
+	text-transform: uppercase;
+	font-size: 1.4rem;
+}
+
+.skill-tags {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+	gap: .8rem;
+}
+
+.skill-tags li {
+	padding: .5rem 1.4rem;
+	border: 1px solid rgba(128, 128, 128, .5);
+	border-radius: 2rem;
+	font-size: 1.4rem;
+	line-height: 1.6;
+	margin: 0;
+}
 
 /*# sourceMappingURL=main.css.map */
