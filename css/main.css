@@ -1843,6 +1843,35 @@ header .logo a {
  *
  * ------------------------------------------------------------------- 
  */
+.tabs.row {
+	max-width: 1400px;
+	width: 96%;
+}
+
+.tabs .filter-button-group {
+	display: flex !important;
+	flex-wrap: nowrap !important;
+	justify-content: center;
+	gap: .4rem;
+}
+
+.tabs .filter-button-group button {
+	flex: 0 0 auto;
+	margin: 0 !important;
+	padding: 0 1.2rem !important;
+	height: 4rem !important;
+	line-height: 4rem !important;
+	font-size: 1.1rem !important;
+	letter-spacing: .1rem !important;
+	white-space: nowrap;
+}
+
+@media (max-width: 800px) {
+	.tabs .filter-button-group {
+		flex-wrap: wrap !important;
+	}
+}
+
 #portfolio {
 	background: #FFFFFF;
 	padding-bottom: 12rem;
