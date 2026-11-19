@@ -1989,9 +1989,9 @@ header .logo a {
 }
 .popup-modal .description-box h4 {
 	font-family: "poppins-bold", sans-serif;
-	font-size: 1.5rem;
-	line-height: 2.4rem;
-	margin-bottom: .6rem;
+	font-size: 2.2rem;
+	line-height: 3rem;
+	margin-bottom: 1.2rem;
 }
 .popup-modal .description-box p {
 	font-family: "poppins-regular", sans-serif;
@@ -1999,14 +1999,17 @@ header .logo a {
 	line-height: 2.4rem;
 	margin-bottom: 12px;
 }
-.popup-modal .description-box strong {
+.popup-modal .description-box strong,
+.popup-modal .description-box em {
 	font-family: "poppins-semibold", sans-serif;
+	font-size: inherit;
+	line-height: inherit;
 	font-weight: normal;
 }
 .popup-modal .categories {
 	font-family: "poppins-bold", sans-serif;
-	font-size: 1.1rem;
-	line-height: 1.8rem;
+	font-size: 1.4rem;
+	line-height: 2.4rem;
 	text-transform: uppercase;
 	letter-spacing: .1rem;
 	display: block;
