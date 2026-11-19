@@ -1846,19 +1846,21 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 .tabs.row {
-	max-width: 1400px;
-	width: 96%;
+	/* same width as the project grid (.portfolio-content) */
+	width: 94%;
+	max-width: 1140px;
+	margin-bottom: 3rem;
 }
 
 .tabs .filter-button-group {
 	display: flex !important;
-	flex-wrap: nowrap !important;
+	flex-wrap: wrap !important;
 	justify-content: center;
-	gap: .4rem;
+	gap: .8rem;
 }
 
 .tabs .filter-button-group button {
-	flex: 0 0 auto;
+	flex: 1 1 auto;
 	margin: 0 !important;
 	padding: 0 1.2rem !important;
 	height: 4rem !important;
@@ -1866,12 +1868,6 @@ header .logo a {
 	font-size: 1.1rem !important;
 	letter-spacing: .1rem !important;
 	white-space: nowrap;
-}
-
-@media (max-width: 800px) {
-	.tabs .filter-button-group {
-		flex-wrap: wrap !important;
-	}
 }
 
 #portfolio {
